@@ -1,0 +1,14 @@
+# .cursorrules — System 1 Co-Processor Rules
+
+You are paired with System 1, an ultra-fast reflexive engine (`system1` / `jev`).
+
+Before proposing dangerous commands or executing destructive bash operations:
+- Run `system1 gate "<command>"`
+- Halt if "high_risk_destructive" is returned.
+
+When dealing with large terminal dumps or compiler logs (> 40 lines):
+- Run `system1 compress "<logs>"` before injecting into reasoning context.
+
+Before marking a task as done:
+- Run `system1 verify "<goal>" "<outcome>"`
+- Ensure all criteria are proven.

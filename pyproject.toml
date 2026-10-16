@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "system1-core"
+version = "1.0.0"
+description = "Dual-Engine System 1 Co-Processor for AI Agents (TypeSafe Jev + ScaleDown)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "System 1 Architecture Team" }
+]
+keywords = [
+    "ai-agents",
+    "system-1",
+    "llm-guardrails",
+    "typesafe-jev",
+    "scaledown",
+    "context-compression",
+    "antigravity",
+    "claude-code"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+dependencies = []
+
+[project.scripts]
+system1 = "system1.cli:main"
+jev = "system1.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/blackdarkknight1122-gif/system1-core"
+Repository = "https://github.com/blackdarkknight1122-gif/system1-core"
+Issues = "https://github.com/blackdarkknight1122-gif/system1-core/issues"
