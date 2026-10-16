@@ -42,6 +42,6 @@ system1 = "system1.cli:main"
 jev = "system1.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/blackdarkknight1122-gif/system1-core"
-Repository = "https://github.com/blackdarkknight1122-gif/system1-core"
-Issues = "https://github.com/blackdarkknight1122-gif/system1-core/issues"
+Homepage = "https://github.com/suzyski/system1-core"
+Repository = "https://github.com/suzyski/system1-core"
+Issues = "https://github.com/suzyski/system1-core/issues"

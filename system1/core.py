@@ -26,7 +26,7 @@ def classify_jev(text: str, options: List[Dict[str, str]]) -> Dict[str, Any]:
     headers = {
         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
         "Content-Type": "application/json",
-        "HTTP-Referer": "https://github.com/blackdarkknight1122-gif/system1-core",
+        "HTTP-Referer": "https://github.com/suzyski/system1-core",
         "X-Title": "System 1 Engine",
     }
     criteria = {opt["name"]: opt.get("rubric", opt["name"]) for opt in options}

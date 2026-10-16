@@ -4,7 +4,7 @@ To equip **Claude Code** with System 1 reflexes:
 
 1. Install `system1-core`:
    ```bash
-   curl -fsSL https://raw.githubusercontent.com/blackdarkknight1122-gif/system1-core/main/install.sh | bash
+   curl -fsSL https://raw.githubusercontent.com/suzyski/system1-core/main/install.sh | bash
    ```
 
 2. Add custom tool or command permissions to `~/.claude.json` or project `CLAUDE.md`:

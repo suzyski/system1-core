@@ -33,7 +33,7 @@ if [ -f "$REPO_DIR/pyproject.toml" ]; then
     python3 -m pip install -e "$REPO_DIR" --quiet --upgrade
 else
     # Direct remote install
-    python3 -m pip install git+https://github.com/blackdarkknight1122-gif/system1-core.git --quiet --upgrade
+    python3 -m pip install git+https://github.com/suzyski/system1-core.git --quiet --upgrade
 fi
 
 # 3. Ensure ~/.local/bin is in PATH

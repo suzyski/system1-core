@@ -11,7 +11,7 @@ Thank you for your interest in contributing to the System 1 architecture!
 ## Local Development
 
 ```bash
-git clone https://github.com/blackdarkknight1122-gif/system1-core.git
+git clone https://github.com/suzyski/system1-core.git
 cd system1-core
 pip install -e .
 python -m unittest discover tests

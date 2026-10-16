@@ -54,7 +54,7 @@ Today's autonomous coding agents (Claude Code, Antigravity, OpenAI Codex, Cursor
 Install via one-line shell script:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/blackdarkknight1122-gif/system1-core/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/suzyski/system1-core/main/install.sh | bash
 ```
 
 Or install via `pip`:
