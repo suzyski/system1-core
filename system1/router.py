@@ -14,6 +14,8 @@ def find_skills_library() -> tuple[Optional[str], Optional[str]]:
     for base in SKILLS_SEARCH_PATHS:
         index_file = os.path.join(base, "skills_index.json")
         skills_dir = os.path.join(base, "skills")
+        if not os.path.exists(skills_dir) and os.path.isdir(base):
+            skills_dir = base
         if os.path.exists(index_file):
             return index_file, skills_dir
     return None, None
@@ -65,6 +67,8 @@ def route_skill(user_query: str) -> Dict[str, Any]:
     })
 
     res = classify(user_query, labels)
+    if "error" in res:
+        return {"matched": False, "error": res["error"]}
     top_name = res.get("top_label")
     if top_name and top_name != "none_of_above":
         skill_path = os.path.join(skills_dir, top_name, "SKILL.md") if skills_dir else None

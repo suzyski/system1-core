@@ -1,0 +1,10 @@
+[
+  {
+    "name": "security-audit",
+    "description": "Audit repository code and containers for hardcoded secrets, misconfigured permissions, and dependency vulnerabilities."
+  },
+  {
+    "name": "git-hygiene",
+    "description": "Git hygiene protocol for agentic workflows: status verification, atomic commits, branch isolation, and safe pushes."
+  }
+]

@@ -11,7 +11,9 @@
 
 ---
 
-![System 1 Dual Engine Architecture](assets/poster.png)
+[![System 1 Dual Engine Architecture](assets/poster.png)](assets/system1-workflow.mp4)
+
+> 🎥 **[Watch the 24-Second Motion Architecture Demo (MP4)](assets/system1-workflow.mp4)**
 
 ---
 
@@ -61,6 +63,25 @@ Or install via `pip`:
 
 ```bash
 pip install system1-core
+```
+
+### 🔑 Environment Configuration
+
+Configure your dual-engine API credentials via `.env` or shell export:
+
+```bash
+# 1. TypeSafe Jev (Decision engine for routing, gating, and verification)
+# Get your key at: https://openrouter.ai/keys
+export OPENROUTER_API_KEY="your_openrouter_api_key" # or export JEV_API_KEY="..."
+
+# 2. ScaleDown (Context compression engine)
+# Get your key at: https://scaledown.xyz
+export SCALEDOWN_API_KEY="your_scaledown_api_key"
+```
+
+Or copy the included template:
+```bash
+cp .env.example .env
 ```
 
 ---
